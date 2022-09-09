@@ -1,0 +1,63 @@
+
+
+
+struct prep {
+	void proc1(FILE &file_name){
+	find trigraph;
+	change trigraph;
+	}
+
+	void proc2(FILE &file_name){
+	find '\\n'
+	delete '\\n' from file
+	}
+
+	void proc3(){
+	find '//*\n'
+	change to '\n'
+	}
+
+	void proc4(){
+		find lexeme
+		create table_of_lexemes
+	}
+
+	void proc5(){
+	while (|table_of_lexemes|!=0) {
+
+	take first lexeme from table_of_lexemes
+	processing(lexeme, file)
+
+	}
+	}
+
+	function processing(lexeme, file){
+	lexeme : lexemefunc(file)
+
+	}
+
+	result_proc(file){
+	proc1
+	proc2
+	proc3
+	proc4
+	proc5
+	success file processed
+	}
+
+
+	
+	private:
+	set of lexemefunc
+	const all lexemes for compair
+
+	table of lexemes
+};
+
+
+int main(){
+	
+	
+
+	return 1;
+}

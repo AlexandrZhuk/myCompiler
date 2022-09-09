@@ -1,5 +1,14 @@
 
 
+
+struct prep {
+	
+	void proc();
+	private:
+
+};
+
+
 int main(){
 	
 	
